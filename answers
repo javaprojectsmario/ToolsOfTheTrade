@@ -1,0 +1,80 @@
+1.) Using the command line, how do you:
+
+    a. change directories? 
+
+cd
+    b. list the contents of a folder (aka "directory")?
+
+ls
+    c. print the path of the current directory?
+
+pwd
+
+    d. move a file from one location to the another?
+
+mv /path/to/existing/folder /path/to/new/location
+    e. copy a file from one location to another?
+
+cp /path/to/existing/file.txt /path/to/new/location
+    f. create a file?
+
+cat filename.txt
+    g. create a folder (aka "directory")?
+
+mkdir <directory_name>
+    h. delete a file?
+
+rm <file_name>
+    i. delete a folder (aka "directory")?
+
+rm -r <directory_name>
+    j. print the contents of a file?
+
+cat myFile. txt
+    k. edit the contents of a file?
+
+vi /path/to/file
+
+2.) Why do we use git and Github?
+
+Simply put, Git is a version control system that lets you manage and keep track of your source code history. GitHub is a cloud-based hosting service that lets you manage Git repositories. If you have open-source projects that use Git, then GitHub is designed to help you better manage them.
+3.) What is the general flow of git?
+
+Gitflow is really just an abstract idea of a Git workflow. This means it dictates what kind of branches to set up and how to merge them together. 
+4.) What is the purpose of adding a remote to a local git repository?
+
+It's important to stress that the actual work on your project happens only in your local repository: all modifications have to be made & committed locally. Then, those changes can be uploaded to a remote repository in order to share them with your team
+5.) How do you print a message to the console?
+
+System.out.print("message");
+6.) Where does a program begin its execution?
+
+In java, program execution begins from main function. Java compiler executes the statement, which are only onside the main function. Therefore, if there is a class, where the class member is not called inside the main function then that part of the code will not be executed.
+7.) What does IDE stand for?
+
+integrated development environment
+8.) What is Vim?
+
+Vim is a highly configurable text editor built to enable efficient text editing. It is an improved version of the vi editor distributed with most UNIX systems.
+9.) How do you enter "insert mode" in Vim?
+
+You can enter insert mode by pressing the i key
+10.) How you exit "insert mode" in Vim?
+
+If you are currently in insert mode, press Esc .
+11.) How do you "write and quit" a file in Vim?
+
+Press Esc to enter Command mode, and then type :wq to write and quit the file. 
+12.) How do we compile a Java file from the CLI?
+
+Type 'javac MyFirstJavaProgram. java' and press enter to compile your code. 
+13.) How do you run a Java class from the CLI?
+
+How to run a java program
+Open a command prompt window and go to the directory where you saved the java program (MyFirstJavaProgram. java). ...
+Type 'javac MyFirstJavaProgram. ...
+Now, type ' java MyFirstJavaProgram ' to run your program.
+You will be able to see the result printed on the window.
+14.) How do you run a Java file (that contains a main() method) within IntelliJ?
+
+To run a script, open it in the editor or select it in the Project tool window, and then select Run <file name> from the context menu.
